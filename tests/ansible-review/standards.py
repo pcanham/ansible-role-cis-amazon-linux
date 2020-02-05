@@ -112,7 +112,7 @@ def playbook_contains_logic(candidate, settings):
                     else:
                         continue
                     # we can only access line number of first thing in the section
-                    # so we guess the section starts on the line above. 
+                    # so we guess the section starts on the line above.
                     errors.append(Error(firstitemline,
                                        "%s should not be required in a play" %
                                         logic))
